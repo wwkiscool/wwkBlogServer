@@ -2,7 +2,6 @@ const router = require('koa-router')()
 const multer = require('koa-multer')
 
 const { routerBaseUrl } = require('../utils/config.ts')
-console.log("1",routerBaseUrl);
 const path = require('path')
 
 router.get(routerBaseUrl,async (ctx) => {

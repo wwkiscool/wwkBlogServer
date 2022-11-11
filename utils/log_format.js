@@ -5,8 +5,7 @@ const log4js = require('log4js');
 
 const CONFIG = {
     "API_PREFIX": "/api", // 配置了路由前缀
-    "LOG_CONFIG":
-    {
+    "LOG_CONFIG":{
         "appenders": {
             "error": {
                 "category": "errorLogger",      // logger 名称
@@ -39,9 +38,9 @@ const CONFIG = {
         }
     }
 };
-log4js.configure(CONFIG);
+log4js.configure(CONFIG.LOG_CONFIG);
 
-let logFormat:any = {};
+let logFormat = {};
 
 // 分别获取到 categories 里面的 error 和 response 元素
 // 目的是为了输出错误日志和响应日志

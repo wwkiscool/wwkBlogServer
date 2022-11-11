@@ -1,12 +1,12 @@
 
 // middleware/logger.js
 
-logFormat = require('../utils/log_format');
+const logFormat = require('../utils/log_format');
 
 const logger = () => {
     return async (ctx, next) => {
         const start = +new Date(); //开始时间
-        let ms:any; //间隔时间
+        let ms; //间隔时间
         try {
             await next(); // 下一个中间件
             ms = +new Date() - start;

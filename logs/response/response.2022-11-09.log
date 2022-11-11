@@ -1,0 +1,77 @@
+[2022-11-09T10:07:05.543] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 100ms
+response status: 200
+response body: 
+{"status":200,"message":"成功","data":111}
+------------------------ end
+
+[2022-11-09T10:07:51.681] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 53ms
+response status: 200
+response body: 
+{"status":200,"message":"成功","data":111}
+------------------------ end
+
+[2022-11-09T10:20:49.413] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 104ms
+response status: 200
+response body: 
+{"code":1,"message":"success","data":[{"id":1,"userName":"admin","passWord":"admin","createDate":"2022-11-9 10:07","userType":"admin","ip":null,"loginDevice":null,"avatar":null}]}
+------------------------ end
+
+[2022-11-09T15:15:26.476] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 97ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2022-11-09T15:16:17.624] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 100ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2022-11-09T15:17:03.705] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 94ms
+response status: 200
+response body: 
+{"code":-1,"data":[],"error":{"code":"ER_NO_SUCH_TABLE","errno":1146,"sqlMessage":"Table 'blog.aa' doesn't exist","sqlState":"42S02","index":0,"sql":"select * from aa"},"message":"暂无数据"}
+------------------------ end
+
+[2022-11-09T15:20:23.426] [INFO] response - 
+------------------------ GET /api/users/getUserInfo
+request client ip: ::1
+request query: {}
+
+response time: 100ms
+response status: 200
+response body: 
+{"code":1,"message":"success","data":[{"id":1,"userName":"admin","passWord":"admin","createDate":"2022-11-9 10:07","userType":"admin","ip":null,"loginDevice":null,"avatar":null}]}
+------------------------ end
+

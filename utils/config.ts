@@ -1,3 +1,7 @@
-export const routerBaseUrl:string = '/api' // 解决跨域
 
 
+
+
+let routerBaseUrl = '/api' // 解决跨域
+
+module.exports=  {routerBaseUrl}

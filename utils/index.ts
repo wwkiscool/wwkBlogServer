@@ -16,6 +16,80 @@ var formatDate = (mark, flag) => {
     let nowDate = flag ? `${year}${mark}${month}${mark}${day} ${hours}:${min}:${sec}` : `${year}${mark}${month}${mark}${day}`;
     return nowDate;
 }
+const chargeDataType = (val) => {
+    // 判断数据类型
+    let res = ''
+    const type = Object.prototype.toString.call(val)
+    switch (type) {
+        case '[object Array]':
+            res = 'array'
+            break;
+        case '[object Object]':
+            res = 'object'
+            break;
+        case '[object Error]':
+            res = 'error'
+            break;
+        case '[object String]':
+            res = 'string'
+            break;
+        case '[object Null]':
+            res = 'null'
+            break;
+        case '[object Date]':
+            res = 'date'
+            break;
+        case '[object Date]':
+            res = 'date'
+            break;
+        case '[object Function]':
+            res = 'function'
+            break;
+        case '[object Number]':
+            res = 'number'
+            break;
+        case '[object Boolean]':
+            res = 'boolean'
+            break;
+        default:
+            res = 'undefined'
+            break;
+    }
+
+    return res
+
+}
+const responseInterface = (res, ctx) => {
+    /**
+     * @params res =>  数据库返回的数据 一般来说是数组
+     */
+    console.log("111111111111",chargeDataType(res) );
+    
+    if (chargeDataType(res) === 'error') {
+        // 如果 错误的话
+        ctx.body = {
+            code: -1,
+            data: [],
+            error:res,
+            message: '暂无数据'
+        }
+    } else {
+        if (res.length === 0) {
+            ctx.body = {
+                code: 1,
+                data: [],
+                message: '暂无数据'
+            }
+        } else {
+            ctx.body = {
+                code: 1,
+                message: 'success',
+                data: res
+            }
+        }
+
+    }
+}
 
 
 var ctxBody = (ctx, universial, params) => { //接口返回值
@@ -70,5 +144,6 @@ var selfHTTPS = (options) => { // 自定义请求第三方接口
 module.exports = {
     formatDate,
     ctxBody,
-    selfHTTPS
+    selfHTTPS,
+    responseInterface
 }
