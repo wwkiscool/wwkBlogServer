@@ -15,13 +15,12 @@ const sleep = timer => new Promise((resolve, reject) => {
         headless: false,   //有浏览器界面启动
         slowMo: 100,       //放慢浏览器执行速度，方便测试观察
         args: [            //启动 Chrome 的参数，详见上文中的介绍
-            '–no-sandbox',
+            '--no-sandbox',
             '--window-size=1280,960'
         ],
       });
       let arr = []
       const page = await browser.newPage();
-      // 因为30K以上就九个分页，所以直接写个循环就是了
       for (let i = 1; i < 10; i++){
         console.log(`${i}/10`)
         try {
@@ -70,7 +69,7 @@ const sleep = timer => new Promise((resolve, reject) => {
         headless: false,   //有浏览器界面启动
         slowMo: 100,       //放慢浏览器执行速度，方便测试观察
         args: [            //启动 Chrome 的参数，详见上文中的介绍
-            '–no-sandbox',
+            '--no-sandbox',
             '--window-size=1280,960'
         ],
       });
