@@ -23,8 +23,8 @@ const sleep = timer => new Promise((resolve, reject) => {
       const page = await browser.newPage();
       for (let i = 1; i < 10; i++){
         console.log(`${i}/10`)
-        try {
-          await page.goto(`https://www.zhipin.com/c101280600/y_7/?query=%E5%89%8D%E7%AB%AF&page=${i}&ka=page-${i}`,{
+        try {// https://www.zhipin.com/web/geek/job?query=%E5%89%8D%E7%AB%AF&city=101280600&salary=405
+          await page.goto(`https://www.zhipin.com/c101280600/y_6/?query=%E5%89%8D%E7%AB%AF&page=${i}&ka=page-${i}`,{
             timeout: 1200000,
             waitUntil: 'networkidle2'
           })
