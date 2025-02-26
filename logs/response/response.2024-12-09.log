@@ -1,0 +1,396 @@
+[2024-12-09T17:34:34.505] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:35.798] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:37.802] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:39.800] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:49.020] [INFO] response - 
+------------------------ GET /
+request client ip: ::1
+request query: {}
+
+response time: 7492ms
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+------------------------ end
+
+[2024-12-09T17:34:49.030] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:50.798] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:52.799] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:54.805] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 10ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:56.800] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 2ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:34:58.799] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:00.797] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 2ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:02.807] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:04.798] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:06.795] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:08.802] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:10.792] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:12.805] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:14.793] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:16.796] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:18.790] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:20.796] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:22.796] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:24.789] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:26.792] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:28.796] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:30.798] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:32.792] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:34.802] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:36.799] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:38.797] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 1ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:40.793] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:42.800] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:44.800] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:35:46.798] [INFO] response - 
+------------------------ GET /__vite_ping
+request client ip: ::ffff:192.168.20.112
+request query: {}
+
+response time: 0ms
+response status: 404
+response body: 
+undefined
+------------------------ end
+
+[2024-12-09T17:36:26.449] [INFO] response - 
+------------------------ GET /
+request client ip: ::1
+request query: {}
+
+response time: 382ms
+response status: 200
+response body: 
+"<!DOCTYPE html><html><head><title>Hello Koa 2!</title><link rel=\"stylesheet\" href=\"/stylesheets/style.css\"></head><body><h1>Hello Koa 2!</h1><p>Welcome to Hello Koa 2!</p></body></html>"
+------------------------ end
+

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="word">
+    <div class="title-continer">
+      <div class="title-item">
+        <div class="title" style="margin-bottom:10px;">题目1「99880011」</div>
+        <div class="content" style="margin-bottom:10px;">
+          公选王问题：请你结合宝鸡实际，站位于市直机关的青年干部角度，围绕“争当改革实干家”主题，结合自己理解体会，自选角度、自拟题目，撰写一篇1000字左右的文章
+        </div>
+      </div>
+    </div>
+    <div class="answer-user" style="margin-bottom:10px;">
+      <h1>####</h1>
+      <div class="answer-item">
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">学员1的答案「2233453」</div>
+        <div class="img">
+          <img style="max-width: 100%;margin-top:10px;" src="https://edu-files.oss-cn-hangzhou.aliyuncs.com/images/2025/01/04/SsCNliOcw86DDloIiNSdcceLX6ro9XTFdGJNmFJB.jpg" alt="">
+          <img style="max-width: 100%;margin-top:10px;" src="https://edu-files.oss-cn-hangzhou.aliyuncs.com/images/2025/01/07/pnkKdtr32AipTMNGkiJrZOlbU6smc5x4AVWqpPHX.jpg" alt="">
+        </div>
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">老师打分（请填写纯数字，该题总分20）：</div>
+        <div style="margin-bottom:20px;"><input type="text" name="" id=""></div>
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">老师批语：</div>
+        <div style="margin-bottom:20px;"><textarea  id="answer1" name="answer1"></textarea></div>
+      </div>
+      <h1>####</h1>
+    </div>
+    <div class="answer-user" style="margin-bottom:10px;">
+      <h1>####</h1>
+      <div class="answer-item">
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">学员1的答案「2233453」</div>
+        <div class="img">
+          <img style="max-width: 100%;margin-top:10px;" src="https://edu-files.oss-cn-hangzhou.aliyuncs.com/images/2025/01/04/SsCNliOcw86DDloIiNSdcceLX6ro9XTFdGJNmFJB.jpg" alt="">
+          <img style="max-width: 100%;margin-top:10px;" src="https://edu-files.oss-cn-hangzhou.aliyuncs.com/images/2025/01/07/pnkKdtr32AipTMNGkiJrZOlbU6smc5x4AVWqpPHX.jpg" alt="">
+        </div>
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">老师打分（请填写纯数字，该题总分20）：</div>
+        <div style="margin-bottom:20px;"><input type="text" name="" id=""></div>
+        <div style="margin-bottom:10px;color: #409EFF;font-weight: bold;">老师批语：</div>
+        <div style="margin-bottom:20px;"><textarea id="answer2" name="answer2" ></textarea></div>
+      </div>
+      <h1>####</h1>
+    </div>
+  </div>
+</body>
+
+</html>

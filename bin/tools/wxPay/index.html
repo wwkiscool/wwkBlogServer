@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信支付示例</title>
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+</head>
+<body>
+    <button id="payButton">支付</button>
+
+    <script>
+        // 配置微信JS-SDK
+        wx.config({
+            debug: false, // 开启调试模式
+            appId: '你的appId', // 必填，公众号的唯一标识
+            timestamp: '你的timestamp', // 必填，生成签名的时间戳
+            nonceStr: '你的nonceStr', // 必填，生成签名的随机串
+            signature: '你的signature', // 必填，签名
+            jsApiList: ['chooseWXPay'] // 必填，需要使用的JS接口列表
+        });
+
+        wx.ready(function() {
+            document.getElementById('payButton').onclick = function() {
+                // 调用微信支付接口
+                wx.chooseWXPay({
+                    timestamp: '支付接口返回的timestamp', // 支付签名时间戳
+                    nonceStr: '支付接口返回的nonceStr', // 支付签名随机串
+                    package: '支付接口返回的package', // 预支付交易会话标识
+                    signType: '支付接口返回的signType', // 签名方式
+                    paySign: '支付接口返回的paySign', // 支付签名
+                    success: function (res) {
+                        // 支付成功后的回调函数
+                        alert('支付成功');
+                    },
+                    fail: function (res) {
+                        // 支付失败后的回调函数
+                        alert('支付失败');
+                    }
+                });
+            };
+        });
+
+        wx.error(function(res){
+            // 处理配置错误
+            alert('配置错误: ' + res.errMsg);
+        });
+    </script>
+</body>
+</html>
