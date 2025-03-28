@@ -2,8 +2,8 @@ const axios = require('axios');
 const fs = require('fs');
 
 // 微信小程序配置
-const appId = 'wxba8adab786968444'; // 替换为你的小程序AppID
-const appSecret = '66b25d39aafff78b5969eceaec27cc38'; // 替换为你的小程序AppSecret
+const appId = 'wx2136507d5f2b2137'; // 替换为你的小程序AppID
+const appSecret = 'fdae402c3984ed8cc1d6ee62ce2b55c7'; // 替换为你的小程序AppSecret
 
 // 获取access_token
 async function getAccessToken() {
@@ -25,13 +25,14 @@ async function getAccessToken() {
 async function createUnlimitedQRCode(scene, path, width = 430, autoColor = false, lineColor = { r: '0', g: '0', b: '0' }, isHyaline = false) {
     const accessToken = await getAccessToken();
     const url = `https://api.weixin.qq.com/wxa/getwxacodeunlimit?access_token=${accessToken}`;
+    // const url = `https://api.weixin.qq.com/cgi-bin/wxaapp/createwxaqrcode?access_token=${accessToken}`
 
     const data = {
-        scene: scene, // 动态参数，用于区分不同的二维码
-        // page: path, // 小程序页面路径
+        scene: 'TEST001', // 动态参数，用于区分不同的二维码
+        //  path, // 小程序页面路径
         width: width, // 二维码宽度
         "check_path": true,
-        "env_version": "release"
+        "env_version": "trial"
         // auto_color: autoColor, // 是否自动配置线条颜色
         // line_color: lineColor, // 自定义线条颜色
         // is_hyaline: isHyaline // 是否生成透明底色
@@ -52,7 +53,7 @@ async function createUnlimitedQRCode(scene, path, width = 430, autoColor = false
 }
 
 // 调用示例
-const scene = 'user_id=12345'; // 动态参数，可以根据需要修改
+const scene = 'id=TEST001'; // 动态参数，可以根据需要修改
 const path = 'pages/index/index'; // 小程序页面路径
 const width = 430; // 二维码宽度
 
